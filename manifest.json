@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Blackboard Native PDF Viewer",
+  "description": "Reveals Blackboard file link allowing preview in native PDF viewer. For non-PDF files, the file is downloaded.",
+  "author": "Tarik Kirgin",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["*://*.ac.uk/*"],
+      "js": ["content-script.js"]
+    }
+  ]
+}  
