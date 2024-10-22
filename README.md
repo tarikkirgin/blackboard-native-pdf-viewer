@@ -1,6 +1,6 @@
 # Blackboard Native PDF Viewer
 
-Browser extension that reveals Blackboard file link allowing preview in the native PDF viewer. For non-PDF files, the file is downloaded.
+Browser extension that reveals Blackboard file link allowing preview in the native PDF viewer in a new tab. For non-PDF files, the file is downloaded.
 
 ## Credits
 

@@ -1,7 +1,7 @@
 {
   "name": "blackboard-native-pdf-viewer",
   "version": "1.0.0",
-  "description": "Browser extension that reveals Blackboard file link allowing preview in native PDF viewer. For non-PDF files, the file is downloaded. Currently only for Firefox.",
+  "description": "Browser extension that reveals Blackboard file link allowing preview in the native PDF viewer in a new tab. For non-PDF files, the file is downloaded. Currently only for Firefox.",
   "author": "Tarik Kirgin",
   "scripts": {
     "build:chrome": "rm -rf dist && mkdir dist && cp -R common/* dist/ && cp manifest_v3/manifest.json dist/",
