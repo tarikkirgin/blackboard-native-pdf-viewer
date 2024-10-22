@@ -5,6 +5,7 @@
   "author": "Tarik Kirgin",
   "scripts": {
     "build:chrome": "rm -rf dist && mkdir dist && cp -R common/* dist/ && cp manifest_v3/manifest.json dist/",
-    "build:firefox": "rm -rf dist && mkdir dist && cp -R common/* dist/ && cp manifest_v2/manifest.json dist/"
+    "build:firefox": "rm -rf dist && mkdir dist && cp -R common/* dist/ && cp manifest_v2/manifest.json dist/",
+    "zip": "rm -rf blackboard-native-pdf-viewer.zip && zip -j blackboard-native-pdf-viewer.zip dist/*"
   }
 }
